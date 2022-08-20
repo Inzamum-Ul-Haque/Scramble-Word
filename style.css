@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #5372f0;
+}
+
+.content {
+  background: white;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.heading {
+  font-size: 25px;
+  padding: 15px;
+  text-align: left;
+}
+
+hr {
+  border: 0.3px solid gray;
+}
+
+.word {
+  padding: 25px 30px 25px 30px;
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.hint-time {
+  padding-left: 15px;
+}
+
+.hint-time p {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.typed-word {
+  width: 370px;
+  font-size: 15px;
+  margin: 0 15px 0 15px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+#refresh {
+  background-color: gray;
+  color: white;
+}
+
+#check {
+  background-color: #5372f0;
+  color: white;
+}
+
+.buttons button {
+  font-size: 18px;
+  width: 40%;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  border: none;
+}
